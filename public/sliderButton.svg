@@ -1,0 +1,14 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none">
+        <circle r="21" cx="24" cy="24"
+                class="svg-slider-circle2"
+                stroke-width= "2"
+                stroke-dasharray="200"
+                stroke="#4C4C4C"/>
+        <circle r="21" cx="24" cy="24"
+                class="svg-slider-circle1"
+                stroke-width= "2"
+                stroke-dasharray="133 283"
+                stroke="white"/>
+    </g>
+</svg>

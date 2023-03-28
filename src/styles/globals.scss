@@ -1,0 +1,51 @@
+@import '@/styles/fonts.scss';
+@import '@/styles/swiper.scss';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Gilroy', serif;
+  text-decoration: none;
+  list-style: none;
+}
+input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 1px;
+  background-color: #ff9514;
+}
+input[type="range"]::-webkit-slider-thumb {
+  background: #ff9514;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  -webkit-appearance: none;
+  margin-top: -10px;
+  box-shadow: none;
+}
+
+input[type="range"]::-ms-fill-lower {
+  background-color: #ff9514;
+}
+input[type="range"]::-ms-fill-upper {
+  background-color: #e1e1e1;
+}
+
+.svg-slider-circle1{
+  animation: fill-circle 10.3s linear infinite;
+}
+
+@keyframes fill-circle {
+  from{
+    stroke-dasharray: 0 200 ;
+  }
+  to {
+    stroke-dasharray: 133 200 ;
+  }
+}
